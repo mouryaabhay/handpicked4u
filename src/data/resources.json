@@ -236,14 +236,6 @@
       "tags": [
         {
           "iconUrl": "",
-          "name": "Galactic Hosting Client",
-          "url": "https://client.galactichosting.net/",
-          "imageUrl": "https://cdn.discordapp.com/banners/1162032966671794207/e082f76c6ff3a1571d11a97a20755785.webp?size=480",
-          "tags": ["Hosting", "Server Management", "Dashboard"],
-          "badges": []
-        },
-        {
-          "iconUrl": "",
           "name": "MongoDB Cloud",
           "url": "https://cloud.mongodb.com/",
           "imageUrl": "https://images.contentstack.io/v3/assets/blt7151619cb9560896/bltfe3bee7877352896/Meta_Generic.png",
