@@ -5,44 +5,85 @@
       "icon": "BrainCircuit",
       "tags": [
         {
-          "iconUrl": "",
           "name": "CloseRouter",
           "url": "https://www.closerouter.com/",
           "imageUrl": "https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-          "tags": ["AI Platforms", "APIs", "Tools"],
+          "tags": [
+            "AI/ML",
+            "API",
+            "Tool",
+            "Backend Dev"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Google AI Studio",
           "url": "https://aistudio.google.com/",
           "imageUrl": "https://ai.google.dev/static/site-assets/images/share-ais-03.png",
-          "tags": ["AI Platforms", "Machine Learning", "APIs"],
+          "tags": [
+            "AI/ML",
+            "API",
+            "Tool",
+            "Backend Dev",
+            "Student"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Hugging Face",
           "url": "https://huggingface.co/",
           "imageUrl": "https://huggingface.co/front/thumbnails/v2-2.png",
-          "tags": ["Machine Learning", "NLP", "AI Models"],
+          "tags": [
+            "AI/ML",
+            "Library",
+            "API",
+            "Backend Dev",
+            "Student"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "OpenRouter",
           "url": "https://openrouter.ai/",
           "imageUrl": "https://openrouter.ai/dynamic-og?pathname=default&title=OpenRouter&description=A+router+for+LLMs+and+other+AI+models",
-          "tags": ["AI Platforms", "APIs", "Open Source"],
+          "tags": [
+            "AI/ML",
+            "API",
+            "Tool",
+            "Backend Dev"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Teachable Machine",
           "url": "https://teachablemachine.withgoogle.com/",
           "imageUrl": "https://teachablemachine.withgoogle.com/assets/img/Hero_image_16x9.jpg",
-          "tags": ["Machine Learning", "Educational", "AI Tools"],
+          "tags": [
+            "AI/ML",
+            "Tool",
+            "Learning",
+            "Student"
+          ],
           "badges": []
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "icon": "Megaphone",
+      "tags": [
+        {
+          "name": "Pomelli",
+          "url": "https://pomelli-ai.com/",
+          "imageUrl": "https://pomelli-ai.com/social/og-image.png",
+          "tags": [
+            "AI/ML",
+            "Tool"
+          ],
+          "badges": [
+            "new",
+            "featured"
+          ]
         }
       ]
     },
@@ -51,19 +92,26 @@
       "icon": "Palette",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Accessible Palette",
           "url": "https://accessiblepalette.com/",
           "imageUrl": "https://accessiblepalette.com/twitter-card.png",
-          "tags": ["Accessibility", "Color Tools", "Design"],
+          "tags": [
+            "Designer",
+            "Tool",
+            "Generator",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Super Color Palette",
           "url": "https://supercolorpalette.com/",
           "imageUrl": "https://i.imgur.com/XeZmcBP.png",
-          "tags": ["Color Tools", "Design"],
+          "tags": [
+            "Designer",
+            "Tool",
+            "Generator"
+          ],
           "badges": []
         }
       ]
@@ -73,76 +121,136 @@
       "icon": "PencilRuler",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Animista",
           "url": "https://animista.net/",
           "imageUrl": "http://animista.net/animista-media-img.gif",
-          "tags": ["CSS", "Animation", "Design"],
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Generator",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Clamp Calculator",
           "url": "https://geary.co/clamp-calculator/",
           "imageUrl": "https://geary.co/wp-content/uploads/2025/07/cropped-fav.png",
-          "tags": ["CSS", "Responsive", "Layout Tools"],
+          "tags": [
+            "Frontend Dev",
+            "Tool",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "CSS Guidelines",
           "url": "https://cssguidelin.es/",
           "imageUrl": "https://cssguidelin.es/twitter-card.png",
-          "tags": ["CSS", "Best Practices", "Web Design"],
+          "tags": [
+            "Frontend Dev",
+            "Reference",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "CSS Pattern",
           "url": "https://css-pattern.com/",
           "imageUrl": "https://css-pattern.com/css-pattern.jpg",
-          "tags": ["CSS", "Pattern Generator", "Design"],
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Generator",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "CSS Protips",
           "url": "https://github.com/AllThingsSmitty/css-protips",
           "imageUrl": "https://opengraph.githubassets.com/b03fa3afea378e1508f97345682fbd5ab417f69a167a89f1a7cc7559f98e3a4a/AllThingsSmitty/css-protips",
-          "tags": ["CSS", "Tips", "Web Design"],
+          "tags": [
+            "Frontend Dev",
+            "Reference",
+            "CSS",
+            "Student"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Grid Layout Generator",
           "url": "https://gridlayoutgenerator.com/",
           "imageUrl": "https://raw.githubusercontent.com/NethminaGunasekara/grid-layout-generator/refs/heads/master/public/images/og-grid-layout.png",
-          "tags": ["Layout Generator", "CSS", "Design"],
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Generator",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Pattern Craft",
           "url": "https://patterncraft.fun/",
           "imageUrl": "https://patterncraft.fun/og-banner.png",
-          "tags": ["Pattern Generator", "CSS", "Design"],
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Generator",
+            "CSS"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Photo Gradient",
           "url": "https://photogradient.com/",
           "imageUrl": "https://photogradient.com/social-image.png",
-          "tags": ["Gradient", "Visual Effects", "Design"],
+          "tags": [
+            "Designer",
+            "Tool",
+            "Generator"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Topography Generator",
           "url": "https://topography.blixthalka.com/",
           "imageUrl": "https://topography.blixthalka.com/favicon-32x32.png?v=6ff2121ceb9cba1c4955874125166b52",
-          "tags": ["Generative Art", "Design", "Textures"],
+          "tags": [
+            "Designer",
+            "Generator",
+            "Frontend Dev"
+          ],
           "badges": []
+        },
+        {
+          "name": "Design Prompts",
+          "url": "https://www.designprompts.dev/",
+          "imageUrl": "https://www.designprompts.dev/og-image.png",
+          "tags": [
+            "Designer",
+            "AI/ML",
+            "Tool",
+            "Inspiration"
+          ],
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "name": "Respinner",
+          "url": "https://respinner.vercel.app/",
+          "imageUrl": "https://respinner.vercel.app/opengraph-image.png?opengraph-image.c07f759b.png=",
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library",
+            "React"
+          ],
+          "badges": [
+            "new"
+          ]
         }
       ]
     },
@@ -151,44 +259,167 @@
       "icon": "Code",
       "tags": [
         {
-          "iconUrl": "",
-          "name": "Developer Roadmaps",
-          "url": "https://roadmap.sh/",
-          "imageUrl": "https://roadmap.sh/img/og-img.png",
-          "tags": ["Guides", "Learning", "Development"],
-          "badges": []
-        },
-        {
-          "iconUrl": "",
           "name": "Eruda Debug Console (Mobile)",
           "url": "https://eruda.liriliri.io/",
-          "imageUrl": "https://camo.githubusercontent.com/d0f6d8eb7aa3c04da21dde1b137049ad3439a7ca17bac6628aa4166a42551dba/68747470733a2f2f65727564612e6c6972696c6972692e696f2f73637265656e73686f742e6a7067",
-          "tags": ["Debugging", "Browser Tools", "Frontend"],
-          "badges": ["featured"]
+          "imageUrl": "https://opengraph.githubassets.com/65f323a27299803999228e1bc1fdb4f44b40deb2cc3b7c2c577b8aa5443debeb/liriliri/eruda",
+          "tags": [
+            "Frontend Dev",
+            "Tool"
+          ],
+          "badges": [
+            "featured"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "Free for Dev",
           "url": "https://free-for.dev/",
           "imageUrl": "https://raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp",
-          "tags": ["Developer Resources", "APIs", "Free Tools"],
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps",
+            "Reference",
+            "API"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
-          "name": "Markdown Cheatsheet",
-          "url": "https://github.com/lifeparticle/Markdown-Cheatsheet",
-          "imageUrl": "https://opengraph.githubassets.com/ca1ae705ef0ac2468452907f877ef4f3e71eb6d521824a9fc8ebeb0320ac737e/lifeparticle/Markdown-Cheatsheet",
-          "tags": ["Documentation", "Markdown", "Guides"],
-          "badges": []
-        },
-        {
-          "iconUrl": "",
           "name": "Public APIs",
           "url": "https://publicapis.dev/",
           "imageUrl": "https://res.cloudinary.com/dev-resources/image/upload/q_auto,w_1200/v1655460684/media/thumbnail-pa_xxz0uy.png",
-          "tags": ["APIs", "Developer Resources", "Open Source"],
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "API",
+            "Reference"
+          ],
           "badges": []
+        },
+        {
+          "name": "Delphi Tools",
+          "url": "https://delphi.tools/",
+          "imageUrl": "https://delphi.tools/delphi-friday.png",
+          "tags": [
+            "Frontend Dev",
+            "Tool"
+          ],
+          "badges": [
+            "new"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "icon": "GraduationCap",
+      "tags": [
+        {
+          "name": "Developer Roadmaps",
+          "url": "https://roadmap.sh/",
+          "imageUrl": "https://roadmap.sh/img/og-img.png",
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps",
+            "Learning",
+            "Student",
+            "Reference"
+          ],
+          "badges": []
+        },
+        {
+          "name": "Markdown Cheatsheet",
+          "url": "https://github.com/lifeparticle/Markdown-Cheatsheet",
+          "imageUrl": "https://opengraph.githubassets.com/ca1ae705ef0ac2468452907f877ef4f3e71eb6d521824a9fc8ebeb0320ac737e/lifeparticle/Markdown-Cheatsheet",
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "Reference",
+            "Student"
+          ],
+          "badges": []
+        },
+        {
+          "name": "GitMastery",
+          "url": "https://gitmastery.me/",
+          "imageUrl": "https://gitmastery.me/home-screen.png",
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps",
+            "Learning",
+            "Student",
+            "Reference"
+          ],
+          "badges": [
+            "new",
+            "featured"
+          ]
+        },
+        {
+          "name": "Code Wiki",
+          "url": "https://codewiki.google/",
+          "imageUrl": "https://assets.codewiki.google/full-logo.png",
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "Reference",
+            "Student"
+          ],
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "name": "Wokwi",
+          "url": "https://wokwi.com/",
+          "imageUrl": "https://wokwi.com/images/social-cover.png?v=5",
+          "tags": [
+            "Tool",
+            "Learning",
+            "Student"
+          ],
+          "badges": [
+            "new",
+            "featured"
+          ]
+        },
+        {
+          "name": "With Diode",
+          "url": "https://www.withdiode.com/",
+          "imageUrl": "https://www.withdiode.com/og-image.png",
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "Tool",
+            "Learning"
+          ],
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "name": "SERVER: Survival Protocol",
+          "url": "https://images-ext-1.discordapp.net/external/9550JbuNAo6ACEYXgRkWk3s9O1TzoW_ZfimVaInYalw/https/opengraph.githubassets.com/16d1af454c79233365a55df67ea4a6e79ac068bc7ecbbdd62c50aae693e9d4d8/pshenok/server-survival?format=webp&width=1341&height=671",
+          "imageUrl": "",
+          "tags": [
+            "Tool"
+          ],
+          "badges": [
+            "new",
+            "featured"
+          ]
+        },
+        {
+          "name": "Loot Drop",
+          "url": "https://www.loot-drop.io/",
+          "imageUrl": "https://www.loot-drop.io/showcase_preview.png",
+          "tags": [
+            "Tool"
+          ],
+          "badges": [
+            "new"
+          ]
         }
       ]
     },
@@ -197,36 +428,68 @@
       "icon": "Cpu",
       "tags": [
         {
-          "iconUrl": "",
           "name": "draw.io",
           "url": "https://www.drawio.com/",
           "imageUrl": "https://www.drawio.com/assets/svg/home-dia1.svg",
-          "tags": ["Flowcharts", "Diagram Tools", "Planning"],
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps",
+            "Designer",
+            "Tool"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Excalidraw",
           "url": "https://excalidraw.com/",
           "imageUrl": "https://excalidraw.com/og-image-3.png",
-          "tags": ["Sketching", "Diagram Tools", "Collaboration"],
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps",
+            "Designer",
+            "Tool"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "FossFLOW",
           "url": "https://stan-smith.github.io/FossFLOW/",
-          "imageUrl": "https://private-user-images.githubusercontent.com/37673863/461397841-e7f254ad-625f-4b8a-8efc-5293b5be9d55.png",
-          "tags": ["Flowcharts", "Project Planning", "Diagram Tools"],
+          "imageUrl": "https://private-user-images.githubusercontent.com/37673863/461397841-e7f254ad-625f-4b8a-8efc-5293b5be9d55.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY0MDUwOTEsIm5iZiI6MTc3NjQwNDc5MSwicGF0aCI6Ii8zNzY3Mzg2My80NjEzOTc4NDEtZTdmMjU0YWQtNjI1Zi00YjhhLThlZmMtNTI5M2I1YmU5ZDU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDE3VDA1NDYzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5ZGIwYmFiODAyNjZlYTBkZjdkNTFjYjU2OGFkODljMjU1YmJjMGY5YTViNjUwYWQzM2UwMWU0YzdjYjI2OTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.hgTx8YoPq0YSd2WcPJ_V5ZgJE2R-HHwAP3jjZ9l_jXQ",
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "DevOps",
+            "Tool"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "PlantUML",
           "url": "https://plantuml.com/",
           "imageUrl": "https://linest.github.io/2016/07/10/hexo-ext-plantuml/plantUML.png",
-          "tags": ["UML", "Software Design", "Diagram Tools"],
+          "tags": [
+            "Backend Dev",
+            "DevOps",
+            "Tool",
+            "Reference"
+          ],
           "badges": []
+        },
+        {
+          "name": "mapcn",
+          "url": "https://www.mapcn.dev/",
+          "imageUrl": "https://www.mapcn.dev/banner.png",
+          "tags": [
+            "Designer",
+            "Frontend Dev",
+            "Tool",
+            "Generator"
+          ],
+          "badges": [
+            "new"
+          ]
         }
       ]
     },
@@ -235,12 +498,31 @@
       "icon": "Server",
       "tags": [
         {
-          "iconUrl": "",
           "name": "MongoDB Cloud",
           "url": "https://cloud.mongodb.com/",
           "imageUrl": "https://images.contentstack.io/v3/assets/blt7151619cb9560896/bltfe3bee7877352896/Meta_Generic.png",
-          "tags": ["Databases", "Cloud", "NoSQL"],
+          "tags": [
+            "Backend Dev",
+            "DevOps",
+            "Database",
+            "Tool"
+          ],
           "badges": []
+        },
+        {
+          "name": "RelateDB",
+          "url": "https://relatedb.com/",
+          "imageUrl": "https://relatedb.com/opengraph-image?88ba351423a84e18=",
+          "tags": [
+            "Backend Dev",
+            "DevOps",
+            "Database",
+            "Tool"
+          ],
+          "badges": [
+            "new",
+            "featured"
+          ]
         }
       ]
     },
@@ -249,27 +531,36 @@
       "icon": "Image",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Iconists Central",
           "url": "https://iconists.co/central",
           "imageUrl": "https://framerusercontent.com/assets/il28Th5smnaCNOWlPYnUBFC9S4I.png",
-          "tags": ["Icon Library", "UI Design", "Free"],
+          "tags": [
+            "Designer",
+            "Frontend Dev",
+            "Reference"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "IconScout Unicons",
           "url": "https://iconscout.com/unicons/free-line-icons/arrow",
           "imageUrl": "https://iconscout.com/og.png",
-          "tags": ["Icon Library", "UI Design", "Free"],
+          "tags": [
+            "Designer",
+            "Frontend Dev",
+            "Library"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Isocons",
           "url": "https://www.isocons.app/",
           "imageUrl": "https://www.isocons.app/og.jpg",
-          "tags": ["Icon Library", "Free", "Design"],
+          "tags": [
+            "Designer",
+            "Frontend Dev",
+            "Library"
+          ],
           "badges": []
         }
       ]
@@ -279,12 +570,15 @@
       "icon": "Sparkles",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Awwwards",
           "url": "https://www.awwwards.com/",
           "imageUrl": "https://assets.awwwards.com/assets/images/pages/about-certificates/awwwards.jpg",
-          "tags": ["Design", "UI/UX", "Web Inspiration"],
-          "badges": ["featured"]
+          "tags": [
+            "Designer",
+            "Frontend Dev",
+            "Inspiration"
+          ],
+          "badges": []
         }
       ]
     },
@@ -293,19 +587,26 @@
       "icon": "Network",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Hoppscotch",
           "url": "https://hoppscotch.io/",
           "imageUrl": "https://hoppscotch.io/banner.png",
-          "tags": ["API Testing", "Networking", "Frontend"],
-          "badges": ["featured"]
+          "tags": [
+            "Frontend Dev",
+            "Backend Dev",
+            "Tool",
+            "API"
+          ],
+          "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Visual Subnet Calculator",
           "url": "https://visualsubnetcalc.com/",
           "imageUrl": "https://visualsubnetcalc.com/icon/social_1200x630.png",
-          "tags": ["Networking", "Subnetting", "IT Tools"],
+          "tags": [
+            "DevOps",
+            "Tool",
+            "Networking"
+          ],
           "badges": []
         }
       ]
@@ -315,84 +616,161 @@
       "icon": "Layers",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Aceternity UI",
           "url": "https://ui.aceternity.com/",
           "imageUrl": "https://ui.aceternity.com/banner.png",
-          "tags": ["UI Libraries", "Components", "Accessibility"],
-          "badges": ["new"]
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library",
+            "React"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "Frames for Sketch",
           "url": "https://framesforsketch.com/",
           "imageUrl": "https://framesforsketch.com/images/thumb.png",
-          "tags": ["UI Kits", "Sketch", "Design"],
+          "tags": [
+            "Designer",
+            "Library"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Magic UI",
           "url": "https://magicui.design/",
           "imageUrl": "https://magicui.design/og",
-          "tags": ["Tailwind", "Components", "UI Kits"],
-          "badges": ["new"]
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library",
+            "React"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "Motion Primitives",
           "url": "https://motion-primitives.com/",
           "imageUrl": "https://motion-primitives.com/twitter-image.jpg?9ca9b9247d6d0fe4=",
-          "tags": ["Tailwind", "Components", "UI Kits"],
-          "badges": ["new"]
+          "tags": [
+            "Frontend Dev",
+            "Library",
+            "React",
+            "CSS"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "React Bits",
           "url": "https://www.reactbits.dev/",
-          "imageUrl": "https://reactbits.dev/og-pic.png",
-          "tags": ["React", "Components", "UI Libraries"],
-          "badges": ["new"]
+          "imageUrl": "https://reactbits.dev/og-photo.png",
+          "tags": [
+            "Frontend Dev",
+            "Library",
+            "React"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "Serenity UI",
           "url": "https://www.serenity-ui.com/",
           "imageUrl": "https://i.postimg.cc/9fg2pznm/Screenshot-2025-08-22-152245.png",
-          "tags": ["UI Libraries", "Components", "Frontend"],
-          "badges": ["new"]
+          "tags": [
+            "Frontend Dev",
+            "Library",
+            "CSS"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "shadcn/ui",
           "url": "https://ui.shadcn.com/",
           "imageUrl": "https://ui.shadcn.com/og?title=The%20Foundation%20for%20your%20Design%20System&description=A%20set%20of%20beautifully%20designed%20components%20that%20you%20can%20customize%2C%20extend%2C%20and%20build%20on.%20Start%20here%20then%20make%20it%20your%20own.%20Open%20Source.%20Open%20Code",
-          "tags": ["UI Libraries", "Components", "React"],
-          "badges": ["new"]
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library",
+            "React"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "StackSorted",
           "url": "https://stacksorted.com/",
           "imageUrl": "https://stacksorted.com/preview.png",
-          "tags": ["Frontend", "Components", "Inspiration"],
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Inspiration",
+            "Reference"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Tailark",
           "url": "https://tailark.com/",
           "imageUrl": "https://tailark.com/twitter-image.png?b3b0b0529800f823=",
-          "tags": ["Themes", "UI Kits", "Comment System"],
-          "badges": ["new"]
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library"
+          ],
+          "badges": [
+            "new"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "uiverse",
           "url": "https://uiverse.io/",
           "imageUrl": "https://imagedelivery.net/KMb5EadhEKC1gAE0LkjL1g/c802e23e-4d13-44ef-a2fe-46c467571900/public",
-          "tags": ["Components", "Frontend", "UI Libraries"],
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library",
+            "Inspiration"
+          ],
           "badges": []
+        },
+        {
+          "name": "Shoogle",
+          "url": "https://shoogle.dev/",
+          "imageUrl": "https://shoogle.dev/opengraph-image.jpg",
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Reference",
+            "React"
+          ],
+          "badges": [
+            "new",
+            "featured"
+          ]
+        },
+        {
+          "name": "WigggleUI",
+          "url": "https://wigggle-ui.vercel.app/",
+          "imageUrl": "https://wigggle-ui.vercel.app/opengraph-image.png?opengraph-image.a574ff17.png=",
+          "tags": [
+            "Frontend Dev",
+            "Designer",
+            "Library"
+          ],
+          "badges": [
+            "new"
+          ]
         }
       ]
     },
@@ -401,36 +779,69 @@
       "icon": "Wrench",
       "tags": [
         {
-          "iconUrl": "",
           "name": "Checklist Design",
           "url": "https://www.checklist.design/",
           "imageUrl": "https://framerusercontent.com/assets/Bo3YWDGoaNABD5nx1GQCAINOQ.jpg",
-          "tags": ["Design System", "UI Kits", "Resources"],
+          "tags": [
+            "Designer",
+            "Frontend Dev",
+            "Reference"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Cleanup Pictures",
           "url": "https://cleanup.pictures/",
           "imageUrl": "https://cleanup.pictures/preview.jpg",
-          "tags": ["Image Tools", "Design", "Background Removal"],
+          "tags": [
+            "Designer",
+            "Tool"
+          ],
           "badges": []
         },
         {
-          "iconUrl": "",
           "name": "Cobalt Tools",
           "url": "https://cobalt.tools/",
           "imageUrl": "https://cobalt.tools/meowbalt/smile.png",
-          "tags": ["Video Tools", "Utilities", "Downloading"],
-          "badges": ["featured"]
+          "tags": [
+            "Tool"
+          ],
+          "badges": [
+            "featured"
+          ]
         },
         {
-          "iconUrl": "",
           "name": "TinyWow",
           "url": "https://tinywow.com/",
           "imageUrl": "https://tinywow.com/v3/img/tw-laptop.svg",
-          "tags": ["PDF Tools", "Utilities", "Online Tools"],
+          "tags": [
+            "Tool"
+          ],
           "badges": []
+        },
+        {
+          "name": "PaperMe",
+          "url": "https://paperme.pixzens.com/en",
+          "imageUrl": "https://paperme.pixzens.com/og-image.png",
+          "tags": [
+            "Designer",
+            "Tool"
+          ],
+          "badges": [
+            "new"
+          ]
+        },
+        {
+          "name": "Beadifier",
+          "url": "https://beadifier.eremes.xyz/",
+          "imageUrl": "",
+          "tags": [
+            "Tool",
+            "Generator"
+          ],
+          "badges": [
+            "new"
+          ]
         }
       ]
     }
