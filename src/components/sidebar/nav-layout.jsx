@@ -16,7 +16,9 @@ export default function NavSidebarLayout() {
       ? categories.map((category) => ({
           title: category.name || "Uncategorized",
           icon: Icons[category.icon] || Icons.Ungroup,
-          count: category.tags?.length ?? 0,
+          count: Number.isFinite(category.count)
+            ? category.count
+            : (category.tags?.length ?? 0),
         }))
       : []; // empty array → child will show "No data available"
 

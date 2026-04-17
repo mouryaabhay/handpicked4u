@@ -1,45 +1,72 @@
-import React, { useContext, useMemo } from "react";
-import { ResourcesProviderContext } from "@/contexts/resources-context";
+import React, { useContext, useEffect, useMemo, useState } from "react";
 import { BookmarksContext } from "@/contexts/bookmarks-context";
 import { Separator } from "@/components/ui/separator";
 import ResourceCard from "./resource-card";
 
 export default function ResourcesList({ query = "" }) {
-  const { categories } = useContext(ResourcesProviderContext);
   const { bookmarks } = useContext(BookmarksContext);
-  const searchTerm = query.toLowerCase().trim();
+  const [categories, setCategories] = useState([]);
+  const [isLoadingResources, setIsLoadingResources] = useState(true);
+  const [resourcesError, setResourcesError] = useState("");
 
-  const filteredCategories = useMemo(() => {
-    if (!categories) return [];
+  useEffect(() => {
+    const controller = new AbortController();
 
-    return categories
-      .map((category) => {
-        const resources = category.tags.filter((resource) => {
-          const haystack = [
-            resource.name,
-            resource.url,
-            ...(resource.tags || []),
-            ...(resource.badges || []),
-            category.name,
-          ]
-            .join(" ")
-            .toLowerCase();
+    const loadResources = async () => {
+      setIsLoadingResources(true);
+      setResourcesError("");
 
-          return haystack.includes(searchTerm);
-        });
+      try {
+        const params = new URLSearchParams();
+        if (query?.trim()) {
+          params.set("q", query.trim());
+        }
+        params.set("limit", "9");
 
-        if (resources.length) return { ...category, tags: resources };
-        return null;
-      })
-      .filter(Boolean);
-  }, [categories, searchTerm]);
+        const endpoint = `/api/resources?${params.toString()}`;
+        const response = await fetch(endpoint, { signal: controller.signal });
+
+        if (!response.ok) {
+          throw new Error(`Request failed with status ${response.status}`);
+        }
+
+        const payload = await response.json();
+
+        if (controller.signal.aborted) return;
+        setCategories(Array.isArray(payload?.categories) ? payload.categories : []);
+      } catch (error) {
+        if (controller.signal.aborted) return;
+        setCategories([]);
+        setResourcesError(error?.message || "Failed to load resources");
+      } finally {
+        if (!controller.signal.aborted) {
+          setIsLoadingResources(false);
+        }
+      }
+    };
+
+    loadResources();
+
+    return () => controller.abort();
+  }, [query]);
 
   // Add a "Favorites" pseudo-category at the top
   const favoritesCategory = bookmarks.length
     ? [{ name: "Favorites", tags: bookmarks }]
     : [];
 
-  const allCategories = [...favoritesCategory, ...filteredCategories];
+  const allCategories = useMemo(
+    () => [...favoritesCategory, ...categories],
+    [favoritesCategory, categories]
+  );
+
+  if (isLoadingResources) {
+    return <p>Loading resources...</p>;
+  }
+
+  if (resourcesError) {
+    return <p>Unable to load resources right now.</p>;
+  }
 
   if (!allCategories.length) return <p>No resources found.</p>;
 
