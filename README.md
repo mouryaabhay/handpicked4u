@@ -1,25 +1,25 @@
 # 🌟 Handpicked
 
-> A curated collection of **frontend development resources**, handpicked by developers — for developers.
+> A curated collection of **tools and resources** for people who build things.
 > Built to save you from endless hunting and help you focus on **learning, building, and growing**.
 
 ---
 
 ## 🚀 About
 
-When I first started in frontend development and web design, I found myself spending **more time searching for quality tools** and **resources** than actually improving my skills.
+When I first started building projects and exploring design, I found myself spending **more time searching for quality tools** and **resources** than actually improving my skills.
 
 **Handpicked** was born from that frustration — a place where all the essentials are gathered, organized, and ready to use.
 Now, it exists to help others who face the same struggles — with resources **curated by me and amazing contributors** from across the web.
 
-Whether you’re a beginner or a pro, **Handpicked** aims to be your go-to starting point for modern web development.
+Whether you’re a beginner or a pro, **Handpicked** aims to be your go-to starting point for modern building and creative workflows.
 
 ---
 
 ## 🧠 Features
 
 - 🔍 **Curated Resources** — Only the best, hand-selected by contributors.
-- ⚡ **Built with Vite + React** — Fast, modular, and developer-friendly foundation.
+- ⚡ **Built with Vite + React** — Fast, modular, and production-ready foundation.
 - 🧩 **ESLint & Prettier Ready** — Clean, consistent code every time.
 - 🛠️ **Easy to Extend** — Add new categories, tools, or UI components effortlessly.
 - 🤝 **Community-Driven** — Open for contributors who love sharing great resources.
@@ -91,10 +91,10 @@ Have ideas, feedback, or want to collaborate?
 
 ---
 
-## ✨ A Note from the Creator
+## ✨ A Note from the Maintainer
 
 > I built Handpicked to save others from the endless search for the “right” tool.
 > Every contribution here helps someone spend less time searching and more time creating.
-> Let’s build a place where developers help each other grow. 🌱
+> Let’s build a place where people who build can help each other grow. 🌱
 
 — **Abhay Mourya**

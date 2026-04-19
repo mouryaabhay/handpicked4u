@@ -27,12 +27,15 @@ export default function HeroSection() {
 
       <div className="max-w-4xl space-y-6">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-balance">
-          Not everything. Just the good stuff.
+          The shortlist. For everything.
         </h1>
 
         <p className="text-lg sm:text-xl text-muted-foreground font-medium leading-relaxed">
-          Handpicked for creators who value quality over quantity, clarity over
-          clutter, and ideas that actually make things better.
+          Handpicked is where the best tools, resources, and references live -
+          curated across AI, design, development, and beyond.
+        </p>
+        <p className="text-base sm:text-lg text-muted-foreground/90 font-semibold">
+          We don&apos;t collect. We choose. There&apos;s a difference.
         </p>
       </div>
 

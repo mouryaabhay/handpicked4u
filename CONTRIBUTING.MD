@@ -5,7 +5,7 @@ This project thrives on the amazing contributions from the community — whether
 
 Our goal is simple:
 
-> To make it effortless for developers and designers to find **handpicked, high-quality frontend resources** without wasting hours searching.
+> Every contribution makes Handpicked more useful for everyone — submit what you'd genuinely recommend to a colleague.
 
 ---
 

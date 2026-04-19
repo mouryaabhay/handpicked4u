@@ -17,9 +17,10 @@ export default function AboutPage() {
           About Handpicked
         </h1>
         <p className="text-muted-foreground text-lg">
-          Handpicked curates the best developer tools, libraries, and
-          resources — saving you hours of research and helping you build faster,
-          smarter, and cleaner.
+          The internet has no shortage of tools. It has a shortage of good
+          judgment. Handpicked exists to close that gap: a continuously
+          maintained collection of resources across design, development, AI,
+          learning, and workflows, organized for clarity and chosen for quality.
         </p>
       </div>
 
@@ -30,10 +31,9 @@ export default function AboutPage() {
         <div>
           <h2 className="text-2xl font-semibold mb-3">Our Mission</h2>
           <p className="text-muted-foreground">
-            Developers spend too much time searching for the right tools.
-            Handpicked was built to solve that. Every resource is vetted by
-            real engineers — ensuring quality, performance, and long-term
-            reliability. No noise. Just essentials.
+            Our mission is simple: reduce the cost of finding good tools. Every
+            resource here has been evaluated, not just collected. We do not
+            optimize for volume. We optimize for usefulness.
           </p>
         </div>
         <Card className="border-green-500/20 bg-green-500/5 backdrop-blur-sm">
@@ -42,8 +42,7 @@ export default function AboutPage() {
               100% Curated
             </h3>
             <p className="text-muted-foreground">
-              Every item is reviewed manually by developers who actually use the
-              tools.
+              Every entry is reviewed - nothing gets in by default.
             </p>
           </CardContent>
         </Card>
@@ -59,20 +58,20 @@ export default function AboutPage() {
         <div className="grid sm:grid-cols-2 gap-6">
           {[
             {
-              title: "Curated by Developers",
-              desc: "Every recommendation is hand-tested by experienced engineers.",
+              title: "Curated, Not Aggregated",
+              desc: "Every entry is reviewed - nothing gets in by default.",
             },
             {
-              title: "Quality Over Quantity",
-              desc: "We focus on the best—not every option available.",
+              title: "Broad but Organized",
+              desc: "Covers AI, design, dev, learning, databases, and more - without the sprawl.",
             },
             {
-              title: "Community-Driven",
-              desc: "Suggestions and feedback come directly from the dev community.",
+              title: "Always Current",
+              desc: "Resources are revisited, removed, and refreshed. This is not a graveyard.",
             },
             {
-              title: "Always Updated",
-              desc: "We keep our lists fresh, removing outdated tools regularly.",
+              title: "Open to Contribution",
+              desc: "Quality standards stay high. The door stays open.",
             },
           ].map((item) => (
             <Card key={item.title} className="transition hover:shadow-lg">
@@ -90,10 +89,12 @@ export default function AboutPage() {
       {/* Call to Action */}
       <div className="text-center mt-10">
         <h2 className="text-2xl font-semibold mb-3">
-          Join the Developer-First Curation Movement 🚀
+          Know something we don't? 🚀
         </h2>
         <p className="text-muted-foreground mb-6">
-          Explore the best tools and contribute your favorites to help the next dev.
+          Handpicked gets better when good people add to it. Submit a
+          resource, flag something outdated, or share what has been useful in
+          your work.
         </p>
 
         {/* Updated Button */}

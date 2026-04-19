@@ -4,7 +4,7 @@ import clsx from "clsx";
 
 function formatSectionName(pathname) {
   const parts = pathname.split("/").filter(Boolean);
-  const section = parts[parts.length - 1] || "Built by developers, for developers who care.";
+  const section = parts[parts.length - 1] || "Built for people who build.";
   return decodeURIComponent(section)
     .replace(/-/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase());
