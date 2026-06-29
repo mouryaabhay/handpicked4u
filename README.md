@@ -3,6 +3,8 @@
 > A curated collection of **tools and resources** for people who build things.
 > Built to save you from endless hunting and help you focus on **learning, building, and growing**.
 
+**Live:** [handpicked4u.vercel.app](https://handpicked4u.vercel.app)
+
 ---
 
 ## 🚀 About
@@ -28,10 +30,15 @@ Whether you’re a beginner or a pro, **Handpicked** aims to be your go-to start
 
 ## 🏗️ Tech Stack
 
-- [React](https://react.dev/) – Frontend framework
-- [Vite](https://vitejs.dev/) – Lightning-fast development bundler
+- [React 19](https://react.dev/) – Frontend framework
+- [Vite 7](https://vitejs.dev/) – Lightning-fast development bundler
+- [Tailwind CSS 4](https://tailwindcss.com/) – Utility-first styling
+- [Radix UI](https://www.radix-ui.com/) – Accessible, unstyled UI primitives
+- [shadcn/ui](https://ui.shadcn.com/) – Component library built on Radix UI
+- [React Router 7](https://reactrouter.com/) – Client-side routing
+- [Sonner](https://sonner.emilkowal.ski/) – Toast notifications
+- [Vercel Speed Insights](https://vercel.com/docs/speed-insights) – Real-user performance monitoring
 - [ESLint](https://eslint.org/) – Linting for code quality
-- [Prettier](https://prettier.io/) – Code formatting consistency
 - [Node.js](https://nodejs.org/) – For package management and scripts
 
 ---
@@ -41,8 +48,8 @@ Whether you’re a beginner or a pro, **Handpicked** aims to be your go-to start
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/mouryaabhay/handpicked.git
-cd handpicked
+git clone https://github.com/mouryaabhay/handpicked4u.git
+cd handpicked4u
 ```
 
 ### 2. Install dependencies
@@ -86,8 +93,8 @@ If you have a favorite tool, design kit, or helpful resource, share it with the 
 
 Have ideas, feedback, or want to collaborate?
 
-* 🐛 [Open an issue](https://github.com/mouryaabhay/handpicked/issues)
-* 💡 [Start a discussion](https://github.com/mouryaabhay/handpicked/discussions)
+* 🐛 [Open an issue](https://github.com/mouryaabhay/handpicked4u/issues)
+* 💡 [Start a discussion](https://github.com/mouryaabhay/handpicked4u/discussions)
 
 ---
 

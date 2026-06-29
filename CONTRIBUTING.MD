@@ -27,8 +27,8 @@ There are many ways you can help improve Handpicked:
 2. **Clone** your fork locally
 
    ```
-   git clone https://github.com/<your-username>/handpicked.git
-   cd handpicked
+   git clone https://github.com/<your-username>/handpicked4u.git
+   cd handpicked4u
    ```
 
 3. **Create a new branch**
@@ -69,15 +69,16 @@ There are many ways you can help improve Handpicked:
 
 If you’re contributing a new resource (like a tool, library, or course):
 
-- Go to the `/src/data/resources.js`
-- Add your entry following the existing structure:
+- Go to `/src/data/resources.json`
+- Add your entry inside the relevant category's `tags` array, following the existing structure:
 
-  ```js
+  ```json
   {
-  name: "Tool or Resource Name",
-  description: "A brief, clear description of what it does.",
-  category: "UI Library | Design Tool | Learning | Productivity | Other",
-  link: "https://example.com"
+    "name": "Tool or Resource Name",
+    "url": "https://example.com",
+    "imageUrl": "https://example.com/og-image.png",
+    "tags": ["Category", "Tool", "Frontend Dev"],
+    "badges": []
   }
   ```
 
