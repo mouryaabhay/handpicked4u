@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useMemo, useState } from "react";
-import { BookmarksContext } from "@/contexts/bookmarks-context";
+import { BookmarksContext } from "@/store/bookmarks";
 import { Separator } from "@/components/ui/separator";
 import ResourceCard from "./resource-card";
 

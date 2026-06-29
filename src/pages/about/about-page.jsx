@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { GOOGLE_FORM_URL } from "@/constant/global";
+import { GOOGLE_FORM_URL } from "@/constants";
 import { Search, Shapes } from "lucide-react";
 
 export default function AboutPage() {

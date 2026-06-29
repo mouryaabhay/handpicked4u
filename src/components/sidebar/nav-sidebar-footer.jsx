@@ -8,7 +8,7 @@ import {
   SidebarMenuButton,
 } from "@/components/ui/sidebar";
 import { Link } from "react-router-dom";
-import { DISCORD_INVITE_CODE, handpickedProjectDetails } from "@/constant/global";
+import { DISCORD_INVITE_CODE, handpickedProjectDetails } from "@/constants";
 
 export default function NavSidebarFooter() {
   return (

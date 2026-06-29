@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ResourcesList from "@/components/resources/resource-list";
-import Searchbar from "@/components/other/searchbar";
+import Searchbar from "@/components/search/searchbar";
 import { useDebounce } from "@/hooks/use-debounce";
 
 export default function ResourcesSection() {

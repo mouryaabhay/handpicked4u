@@ -3,8 +3,8 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Search, Shapes } from "lucide-react";
-import { handleScroll } from "@/utils/handle-scroll";
-import { GOOGLE_FORM_URL } from "@/constant/global";
+import { handleScroll } from "@/lib/handle-scroll";
+import { GOOGLE_FORM_URL } from "@/constants";
 
 export default function HeroSection() {
   const handleOpenForm = () => {

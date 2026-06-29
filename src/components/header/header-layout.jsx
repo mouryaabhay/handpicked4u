@@ -3,7 +3,7 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 import { Separator } from "@/components/ui/separator";
 import HeaderGitHubButton from "@/components/header/header-github-button";
 import ThemeToggle from "@/components/themes/theme-toggle";
-import RandomZinger from "@/components/other/random-zinger";
+import RandomZinger from "@/components/header/random-zinger";
 
 export default function AppHeader() {
   return (

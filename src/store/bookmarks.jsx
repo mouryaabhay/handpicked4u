@@ -1,5 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { BookmarksContext } from "@/contexts/bookmarks-context";
+import { createContext, useState, useEffect } from "react";
+
+export const BookmarksContext = createContext({
+  bookmarks: [],
+  addBookmark: () => {},
+  removeBookmark: () => {},
+  isBookmarked: () => false,
+});
 
 export default function BookmarksProvider({ children }) {
   const [bookmarks, setBookmarks] = useState([]);
@@ -24,9 +30,7 @@ export default function BookmarksProvider({ children }) {
   const isBookmarked = (url) => bookmarks.some((b) => b.url === url);
 
   return (
-    <BookmarksContext.Provider
-      value={{ bookmarks, addBookmark, removeBookmark, isBookmarked }}
-    >
+    <BookmarksContext.Provider value={{ bookmarks, addBookmark, removeBookmark, isBookmarked }}>
       {children}
     </BookmarksContext.Provider>
   );

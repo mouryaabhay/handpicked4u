@@ -1,5 +1,6 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { ResourcesProviderContext } from "../contexts/resources-context";
+import { createContext, useEffect, useMemo, useState } from "react";
+
+export const ResourcesProviderContext = createContext(null);
 
 export default function ResourcesProvider({ children }) {
   const [categories, setCategories] = useState([]);
@@ -43,11 +44,7 @@ export default function ResourcesProvider({ children }) {
   }, []);
 
   const providerValue = useMemo(
-    () => ({
-      categories,
-      isLoadingCategories,
-      categoriesError,
-    }),
+    () => ({ categories, isLoadingCategories, categoriesError }),
     [categories, isLoadingCategories, categoriesError]
   );
 
@@ -56,4 +53,4 @@ export default function ResourcesProvider({ children }) {
       {children}
     </ResourcesProviderContext.Provider>
   );
-};
+}

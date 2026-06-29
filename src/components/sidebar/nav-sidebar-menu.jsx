@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import * as Icons from "lucide-react";
 import { SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@/components/ui/sidebar";
-import { handleScroll } from "@/utils/handle-scroll";
-import { BookmarksContext } from "@/contexts/bookmarks-context";
+import { handleScroll } from "@/lib/handle-scroll";
+import { BookmarksContext } from "@/store/bookmarks";
 
 export default function NavSidebarMenu({ items = [] }) {
   const { bookmarks } = useContext(BookmarksContext);

@@ -1,6 +1,6 @@
 "use client";
 
-import { handpickedProjectDetails } from "@/constant/global";
+import { handpickedProjectDetails } from "@/constants";
 import React from "react";
 
 export default function Footer() {

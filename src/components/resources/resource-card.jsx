@@ -3,7 +3,7 @@ import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import { Bookmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
-import { BookmarksContext } from "@/contexts/bookmarks-context";
+import { BookmarksContext } from "@/store/bookmarks";
 import ResourceTags from "@/components/resources/resource-tags";
 
 function ResourceCard({ name, url, imageUrl, tags = [], badges = [] }) {

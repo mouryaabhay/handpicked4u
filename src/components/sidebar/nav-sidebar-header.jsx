@@ -6,7 +6,7 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { Link } from "react-router-dom";
-import { handleScroll } from "@/utils/handle-scroll";
+import { handleScroll } from "@/lib/handle-scroll";
 
 export default function NavSidebarHeader() {
   const handleHomeClick = (e) => {

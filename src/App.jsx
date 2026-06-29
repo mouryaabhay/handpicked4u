@@ -1,12 +1,12 @@
 import "./App.css";
-import ResourcesProvider from "@/providers/resources-provider";
-import BookmarksProvider from "./providers/bookmarks-provider";
-import ThemesProvider from "@/providers/themes-provider";
+import ResourcesProvider from "@/store/resources";
+import BookmarksProvider from "@/store/bookmarks";
+import ThemesProvider from "@/store/themes";
 import { BrowserRouter } from "react-router-dom";
 import NavSidebar from "@/components/sidebar/nav-sidebar";
 import AppHeader from "@/components/header/header-layout";
-import ThemedToaster from "@/components/other/themed-toaster";
-import PageRoutes from "@/pages/PageRoutes";
+import ThemedToaster from "@/components/themed-toaster";
+import PageRoutes from "@/router";
 
 function App() {
   return (

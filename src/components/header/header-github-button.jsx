@@ -1,5 +1,5 @@
-import { handpickedProjectDetails } from "@/constant/global";
-import { GitHubStars } from "@/utils/github-stars";
+import { handpickedProjectDetails } from "@/constants";
+import { GitHubStars } from "@/components/header/github-stars";
 import { Button } from "@/components/ui/button";
 import githubIcon from "@/assets/icons/github.svg";
 

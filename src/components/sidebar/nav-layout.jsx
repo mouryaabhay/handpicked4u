@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import * as Icons from "lucide-react";
 import { Sidebar, SidebarContent } from "@/components/ui/sidebar";
-import { ResourcesProviderContext } from "@/contexts/resources-context";
+import { ResourcesProviderContext } from "@/store/resources";
 import NavSidebarHeader from "./nav-sidebar-header";
 import NavSidebarGroup from "./nav-sidebar-group";
 import NavSidebarMenu from "./nav-sidebar-menu";
